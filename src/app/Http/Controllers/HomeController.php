@@ -12,9 +12,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        if (!Auth::check()) {
-            return redirect()->route('login');
-        }
         $questions = Question::withCount(['answers', 'likes'])
             ->with(["user"])
             ->withExists([

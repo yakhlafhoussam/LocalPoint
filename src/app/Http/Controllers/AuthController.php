@@ -46,7 +46,7 @@ class AuthController extends Controller
     {
         $request->validate([
             'first' => 'required|min:3',
-            'last' => 'required|min:3',
+            'last' => 'required|min:2',
             'city' => 'required|min:3',
             'email' => 'required|email|unique:users,email',
             'password' => 'required|min:8|confirmed',

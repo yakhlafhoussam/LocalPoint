@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('title', 'Signup | LocalMind')
-<div class="w-full h-full flex flex-col justify-center">
+<div class="w-full h-full flex flex-col justify-center items-center">
 <div class="w-full max-w-6xl h-[80vh] flex flex-col lg:flex-row rounded-2xl overflow-hidden shadow-2xl bg-white">
     <!-- Section gauche - Illustration -->
     <div class="lg:w-1/2 bg-gradient-to-br from-blue-600 to-indigo-700 text-white p-8 flex flex-col justify-between">
